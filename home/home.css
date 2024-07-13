@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+* 
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins" , sans-serif;
+}
+
+body 
+{
+    min-width: 100vh;
+    background: url(../Social/assets/lawliet.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+header, nav {
+    margin: 0;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+main {
+    margin: 7% 10% 0;
+    justify-content: space-between;
+}
+
+
+.header
+{
+    
+
+ position: fixed;
+ top: 0;
+ left: 0;
+ width: 100%;
+ padding: 20px 100px;
+ background: transparent;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ z-index: 100;
+}
+
+.logo
+{
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: 800;
+}
+
+
+.navbar a 
+{
+position: relative;
+font-size: 18px;
+color: #fff;
+font-weight: 500;
+text-decoration: none;
+margin-left: 40px;
+}
+
+.navbar a::before
+{
+content: '';
+position: absolute;
+top: 100%;
+left: 0;
+width: 0;
+height: 2px;
+background: #fff;
+transition: .5s;
+}   
+.navbar a:hover::before
+{
+width: 100%;
+}
+
+
+.text{
+margin: 0 auto;
+width: 100%;
+text-align: center;
+text-shadow: #fff 5px 5px ;
+padding: 500px 0
+}
+
+.title
+{
+ align-items: center;
+ margin: 3;
+ padding: 10;
+ font-family: "Poppins" , sans-serif;
+ color: transparent;
+ -webkit-text-stroke: 0.18px #fff;
+ font-size: 70px;
+ background-image: linear-gradient(rgba(255, 255, 255, 0.767),rgba(255, 255, 255, 0.767));
+ background-repeat: no-repeat;
+ -webkit-background-clip: text;
+ background-position: -1500px 0;
+ transition: background-position 1s , text-shadow 1s;
+ transition-delay: .6s, 0s;
+}
+.title:hover
+{
+transition: background-position 1s , text-shadow 1s;
+transition-delay: 0s, 1s;
+background-position:0 0 ;
+text-shadow: 
+  0 0 10px rgba(255, 255, 255, 0.767),
+  0 0 20px rgba(255, 255, 255, 0.767),
+  0 0 40px rgba(255, 255, 255, 0.767),
+  0 0 80px rgba(255, 255, 255, 0.767),
+  0 0 160px rgba(255, 255, 255, 0.767),
+  0 0 240px rgba(255, 255, 255, 0.767);
+}
+
+/*a*/
+#hover
+{
+ align-items: center;
+ margin: 3;
+ padding: 10;
+ font-family: "Poppins" , sans-serif;
+ color: transparent;
+ -webkit-text-stroke: 0.18px #fff;
+ font-size: 30px;
+ background-image: linear-gradient(#dc143c, #dc143c);
+ background-repeat: no-repeat;
+ -webkit-background-clip: text;
+ background-position: -1500px 0;
+ transition: background-position 1s , text-shadow 1s;
+ transition-delay: .6s, 0s;
+}
+#hover:hover
+{
+transition: background-position 1s , text-shadow 1s;
+transition-delay: 0s, 1s;
+background-position:0 0 ;
+text-shadow: 
+  0 0 10px #dc143c,
+  0 0 20px #dc143c,
+  0 0 40px #dc143c;
+}

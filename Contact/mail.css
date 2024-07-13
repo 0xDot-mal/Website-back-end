@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body main
+{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    min-height: 100vh;
+    background:#1f242d;
+}
+body 
+{
+    background:#1f242d;
+}
+
+.material-symbols-outlined {
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 40
+}
+
+.contact h2
+{
+    -webkit-text-stroke: 1.5px #ededed;
+    font-size: 40px;
+    color: #ededed;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.contact form
+{
+    width: 600px;
+    text-align: center;
+}
+
+form .input-box
+{
+    display: flex;
+    justify-content:space-evenly
+}
+.input-box input-field
+{
+    width: 50%;
+}
+
+.field .item
+{
+    width: 100%;
+    padding: 18px;
+    background: transparent;
+    border: 2px solid #ededed;
+    outline: none;
+    border-radius: 8px;
+    font-size: 16px;
+    color: #ededed;
+    margin: 12px 0;
+}
+
+.field .item::placeholder
+{
+    color: rgba(255, 255 , 255, .0.25);
+
+}
+
+.field .error-txt
+{
+    font-size: 14.5px;
+    color: #f92f60;
+    text-align: center;
+    text-shadow: 0 0 7px #f92f60;
+    display: none;
+    
+}
+form .textarea-field .item
+{
+resize: none;
+}
+
+form .textarea-field .error-txt
+{
+margin-top: -10px;
+}
+
+
+form button {
+    width: 100%;
+    padding: 12px 32px;
+    border: 1px solid #ededed;
+    border-radius: 8px;
+    background-color: #1f242d;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+    transition: border 1s , color 1s , background-color 1s;
+}
+
+form button:hover {
+    transition: border 1s , color 1s , background-color 1s , box-shadow 1;
+    box-shadow: 0 0 10px #ededed;
+    border: none;
+    color: #1f242d;
+    background-color: #ededed;
+}
